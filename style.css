@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(
+      to right,
+      rgb(236, 236, 98) 0%,
+      rgb(236, 236, 98)50%,
+      white 50%,
+      white 100%
+    );
+}
+.chatgpt-text{
+    color: orange;
+    top: 8;
+    left: 0;
+}
+.Circle-gpt{
+  width: 20px; 
+  height: 20px;
+  margin-top: 30px;
+  background-color: orange; 
+  border-radius: 50%; 
+}
+.text{
+    color:orange;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    left: 20px;
+    margin-top: 160px;
+}
+.get-started{
+    display:inline;
+    color: black;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+.loginbtn,
+.signupbtn {
+    width: 200px;
+    height: 50px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.loginbtn {
+    margin-top: 300px;
+  background-color: blue;
+  color: #fff;
+}
+
+.loginbtn:hover {
+  background-color: rgb(88, 86, 86); 
+}
+
+.signupbtn{
+    margin-top: 300px;
+  background-color: blue;
+  color: #fff; 
+}
+
+.signupbtn:hover {
+  background-color: rgb(88, 86, 86); 
+}
+.openai{
+    margin-top: 500px;
+    text-decoration: underline;
+    margin-left: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.Terms{
+    margin-top: 550px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: underline;
+    color: grey;
+    cursor: pointer;
+
+    
+}
+.Privacypolicy{
+    margin-top: 550px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: grey;
+}
+
+
+
